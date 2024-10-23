@@ -23,7 +23,8 @@ variables:
       data_developer_source_id: 9a7baa82-1ed1-4957-8402-229061074ad9
       
       # OBJECT ID FOR TEST/PROD DATA PIPELINE OEE ENTRA GROUP
-      data_pipeline_oee_source_id: f76c280d-1f46-4148-90bf-7ab7a3eba770
+      data_pipeline_oee_source_id: 
+      
 
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
       readwrite_source_id: e8fc46e0-a263-442c-8d5a-2b549e9bcc92

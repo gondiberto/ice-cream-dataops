@@ -53,9 +53,11 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-    dependsOn: 
-      - icapi_timeseries_extractor
-      - create_assets_hierarchy
+    dependsOn:
+    - externalId: icapi_timeseries_extractor
+    - externalId: create_assets_hierarchy
+    
+      
 
   - externalId: oee_timeseries
     type: function
@@ -66,8 +68,9 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-    dependsOn: 
-      - icapi_ts_assets_contextualization
-      - icapi_datapoints_extractor
+    dependsOn:
+    - externalId: icapi_ts_assets_contextualization
+    - externalId: icapi_datapoints_extractor
+    
     
     
